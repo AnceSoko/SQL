@@ -74,7 +74,7 @@ SET SQL_SAFE_UPDATES = 0;
 ALTER TABLE vuelo RENAME COLUMN horaSal TO horaSalida;
 
 
-/*21 06*/
+
 select current_timestamp(); /*returns current time*/
 
 select now(); /*hour and date*/
