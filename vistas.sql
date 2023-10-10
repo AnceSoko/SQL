@@ -1,5 +1,3 @@
-/*+++++++++++++++++++++++++++++++++++++ 06.07. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
 USE classicmodels;
 
 CREATE VIEW TelefonoCliente AS SELECT phone, customerName FROM customers;
