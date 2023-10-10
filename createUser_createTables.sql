@@ -74,7 +74,7 @@ SET SQL_SAFE_UPDATES = 0;
 ALTER TABLE vuelo RENAME COLUMN horaSal TO horaSalida;
 
 
-/*21 06*/
+
 select current_timestamp(); /*returns current time*/
 
 select now(); /*hour and date*/
@@ -100,6 +100,7 @@ image BLOB /*data type for photo*/
 );
 
 INSERT INTO fotos(image) VALUES(load_file('C:\\airplane1.jpg'));
+
 
 
 

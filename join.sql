@@ -1,4 +1,4 @@
-USE classicmodels2;
+USE classicmodels;
 
 /*1.	Which customers are in the Southern Hemisphere?*/
 SELECT contactfirstname, customerlocation

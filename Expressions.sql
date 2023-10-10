@@ -322,12 +322,7 @@ SELECT p.productcode, p.productname, p.quantityinstock, p.buyprice, t.inventoryv
 FROM products p JOIN totalinventoryvalues t USING(productcode)
 ORDER BY percentagevalue DESC;
 
-/*11.	Write a function to convert miles per gallon to liters per 100 kilometers*/
 
-/*12.	Write a procedure to increase the price of a specified product category by a given percentage.
- You will need to create a product table with appropriate data to test your procedure.
- Alternatively, load the ClassicModels database on your personal machine so you have complete access. 
- You have to change the DELIMITER prior to creating the procedure.*/
  
  
  
