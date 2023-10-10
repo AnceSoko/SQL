@@ -105,3 +105,4 @@ INSERT INTO fotos(image) VALUES(load_file('C:\\airplane1.jpg'));
 
 
 
+
